@@ -1,0 +1,9 @@
+#nprogress .bar {
+  @apply fixed top-0 left-0 w-full h-2 bg-blue-500 z-50;
+  transition: width 0.2s ease-in-out;
+}
+
+#nprogress .peg,
+#nprogress .spinner {
+  display: none;
+}
